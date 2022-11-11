@@ -171,6 +171,9 @@ footer a:hover{
              
 footer p {
     font-size: 1.2em;
+    float: left;
+    width: 33.33%;
+
 } 
 
 footer p a:hover {
