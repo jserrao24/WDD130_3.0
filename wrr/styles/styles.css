@@ -34,6 +34,8 @@ nav {
                           
 .button-box{
     text-align: center
+    
+
 }
 
 main section {
@@ -48,14 +50,19 @@ main section img {
     grid-template-columns: 10fr;
 }
 
-.home-grid-2 {
+.home-grid-2, p{
+    text-align: left;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 5fr;
+    grid-row: 6/7;
+    color:black
+     
 }
 
 #background {
     height: 100px;
     background-color: #022F40;
+    
 }
 .headline{
     font-family:Roboto Slab, Helvetica, sans-serif; 
@@ -189,7 +196,7 @@ footer .social img{
 }
 
 .rivers-card, .camping-card, .rapids-card{
-    margin: 200px 0;
+    margin: 00px 0;
 }
 
 .card-img {
